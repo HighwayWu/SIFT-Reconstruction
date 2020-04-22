@@ -14,9 +14,20 @@ In this work, we thoroughly evaluate the privacy leakage of Scale Invariant Feat
 We propose a novel end-to-end, coarse-to-fine deep generative model for reconstructing the latent image from its SIFT features. The designed deep generative model consists of two networks, where the first one attempts to learn the structural information of the latent image by transforming from SIFT features to Local Binary Pattern (LBP) features, while the second one aims to reconstructs the pixel values guided by the learned LBP.
 
 <p align='center'>  
-  <img src='https://github.com/HighwayWu/SIFT_Reconstruction/imgs/framework.jpg' width='870'/>
+  <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/framework.jpg' width='870'/>
+  Framework of SLI model.
 </p>
 
 We investigate the challenging cases where the adversary can only access partial SIFT features (either descriptors or coordinates). In the case that the SIFT coordinates are not accessible, we design two methods for predicting the missing coordinate information, which achieves modest success for highly-structured images (e.g., faces). 
+
+<p align='center'>  
+  <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/ref-based.jpg' width='870'/>
+  Reference-based Coordinates Reconstruction.
+</p>
+
+<p align='center'>  
+  <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/landmark-based.jpg' width='870'/>
+  Landmark-based Coordinates Reconstruction.
+</p>
 
 We demonstrate that the reconstruction performance is greatly degraded when coordinates are missing, especially for those images without regular structures. Our results would suggest that the privacy leakage problem can be largely avoided if the SIFT coordinates can be well protected.
