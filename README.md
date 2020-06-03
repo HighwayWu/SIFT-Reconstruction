@@ -25,12 +25,12 @@ We investigate the challenging cases where the adversary can only access partial
 
 <p align='center'>  
   <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/ref-based.jpg' width='870'/>
-  Reference-based Coordinates Reconstruction.
+  Reference-based Coordinates Reconstruction (SLI-R).
 </p>
 
 <p align='center'>  
   <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/landmark-based.jpg' width='870'/>
-  Landmark-based Coordinates Reconstruction.
+  Landmark-based Coordinates Reconstruction (SLI-L).
 </p>
 
 We demonstrate that the reconstruction performance is greatly degraded when coordinates are missing, especially for those images without regular structures. Our results would suggest that the privacy leakage problem can be largely avoided if the SIFT coordinates can be well protected.
@@ -41,7 +41,7 @@ We demonstrate that the reconstruction performance is greatly degraded when coor
 - tensorflow 1.8.0
 
 To train or test the SLI model, please download datasets from their official websites, and put them under the `./data/` directory.
-For the pre-trained models, please download from [here]() and copy them under the `./weights/` directory.
+For the pre-trained models, please download from [here]('https://drive.google.com/drive/folders/1274WSFOCuYo_FLmHzSFSVFfEW0fTL24q?usp=sharing') and copy them under the `./weights/` directory.
 
 ## Demo
 
