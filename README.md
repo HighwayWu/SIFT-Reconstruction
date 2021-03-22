@@ -17,19 +17,26 @@ We propose a novel end-to-end, coarse-to-fine deep generative model (SLI) for re
 
 <p align='center'>  
   <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/framework.jpg' width='870'/>
-  Framework of SLI model.
+</p>
+<p align='center'>  
+  <em>Framework of SLI model.</em>
 </p>
 
 We investigate the challenging cases where the adversary can only access partial SIFT features (either descriptors or coordinates). In the case that the SIFT coordinates are not accessible, we design two methods for predicting the missing coordinate information, which achieves modest success for highly-structured images (e.g., faces). 
 
 <p align='center'>  
   <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/ref-based.jpg' width='870'/>
-  Reference-based Coordinates Reconstruction (SLI-R).
+</p>
+<p align='center'>  
+  <em>Reference-based Coordinates Reconstruction (SLI-R).</em>
 </p>
 
 <p align='center'>  
   <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/landmark-based.jpg' width='870'/>
   Landmark-based Coordinates Reconstruction (SLI-L).
+</p>
+<p align='center'>  
+  <em>Landmark-based Coordinates Reconstruction (SLI-L).</em>
 </p>
 
 We demonstrate that the reconstruction performance is greatly degraded when coordinates are missing, especially for those images without regular structures. Our results would suggest that the privacy leakage problem can be largely avoided if the SIFT coordinates can be well protected.
