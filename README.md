@@ -33,7 +33,6 @@ We investigate the challenging cases where the adversary can only access partial
 
 <p align='center'>  
   <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/landmark-based.jpg' width='870'/>
-  Landmark-based Coordinates Reconstruction (SLI-L).
 </p>
 <p align='center'>  
   <em>Landmark-based Coordinates Reconstruction (SLI-L).</em>
