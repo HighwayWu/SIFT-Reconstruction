@@ -7,6 +7,7 @@ An official implementation code for paper "Privacy Leakage of SIFT Features via 
 - [Background](#background)
 - [Dependency](#dependency)
 - [Demo](#demo)
+- [Citation](#citation)
 
 
 ## Background
@@ -55,3 +56,15 @@ python main.py --model SLI test
 Then the model will reconstruct the images in the `./data/celebahq_test/` and save the results in the `./res/SLI_results/` directory.
 
 It should be noted that the "SLI-B" means the model reconstruct the images by using only the coordinates of SIFT (binary map). For more details please refer to the paper.
+
+## Citation
+
+If you use this code for your research, please cite our paper
+```
+@article{wu2021privacy,
+  title={Privacy leakage of SIFT features via deep generative model based image reconstruction},
+  author={Wu, Haiwei and Zhou, Jiantao},
+  journal={Accepted in IEEE Transactions on Information Forensics and Security},
+  year={2021}
+}
+```
