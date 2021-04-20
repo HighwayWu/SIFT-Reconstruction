@@ -67,10 +67,13 @@ It should be noted that the "SLI-B" means the model reconstruct the images by us
 
 If you use this code for your research, please cite our paper
 ```
-@article{wu2021privacy,
-  title={Privacy leakage of SIFT features via deep generative model based image reconstruction},
-  author={Wu, Haiwei and Zhou, Jiantao},
-  journal={Accepted in IEEE Transactions on Information Forensics and Security},
-  year={2021}
-}
+@ARTICLE{9393327,
+author={H. {Wu} and J. {Zhou}},
+journal={IEEE Transactions on Information Forensics and Security},
+title={Privacy Leakage of SIFT Features via Deep Generative Model Based Image Reconstruction},
+year={2021},
+volume={16},
+number={},
+pages={2973-2985},
+doi={10.1109/TIFS.2021.3070427}}
 ```
