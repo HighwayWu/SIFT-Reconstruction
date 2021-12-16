@@ -46,7 +46,11 @@ We demonstrate that the reconstruction performance is greatly degraded when coor
 - tensorflow 1.8.0
 
 To train or test the SLI model, please download datasets from their official websites, and put them under the `./data/` directory.
-For the pre-trained models, please download from [here](https://drive.google.com/drive/folders/1274WSFOCuYo_FLmHzSFSVFfEW0fTL24q?usp=sharing) and copy them under the `./weights/` directory.
+The pre-trained models should be put under the `./weights/` directory.
+
+**Note: The pretrained weights can be downloaded from:
+[Google Drive](https://drive.google.com/file/d/17O_ST3WJwbLCG1jqdaM3pqbQncdg0h5i/view?usp=sharing) or 
+[Baidu Yun (Code: fu5r)](https://pan.baidu.com/s/1oeHDMGVuV1hJs0yQPHMa6g)**
 
 ## Demo
 
